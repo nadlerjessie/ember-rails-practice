@@ -1,0 +1,4 @@
+{{#each model as |course|}}
+  <p>{{link-to course.name 'courses.course' course}}</p>
+{{/each}}
+{{outlet}}
