@@ -1,4 +1,11 @@
-{{#each model as |course|}}
-  <p>{{link-to course.name 'courses.course' course}}</p>
-{{/each}}
-{{outlet}}
+<div class="row">
+<div class="col-xs-3">
+  {{#each model as |course|}}
+    <p>{{link-to course.name 'courses.course' course}}</p>
+  {{/each}}
+</div>
+
+<div class="col-xs-9">
+  {{outlet}}
+</div>
+</div>
