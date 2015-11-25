@@ -1,8 +1,21 @@
 <div class="row">
-<div class="col-xs-6">
-  {{model.name}}
-</div>
-<div class="col-xs-6">
-  {{outlet}}
-</div>
+  <div class="col-xs-6">
+    Course Name: {{model.name}}<br>
+    Teachers (select a teacher to see his or her students): 
+    <ul>
+      {{#each model.teachers as |teacher|}}
+        {{show-teacher selectTeacher=(action (action "setTeacher") teacher) teacher=teacher}}
+      {{/each}}
+    </ul>
+
+  </div>
+  <div class="col-xs-6">
+    {{#if selectedTeacher}}
+      <ul>
+        {{#each selectedTeacher.students as |student|}}
+          <li>{{student.name}}</li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
 </div>
