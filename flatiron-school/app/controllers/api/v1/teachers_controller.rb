@@ -1,4 +1,4 @@
-class TeachersController < ApplicationController
+class Api::V1::TeachersController < ApplicationController
   before_action :set_teacher, only: [:show, :update, :destroy]
 
   # GET /teachers
