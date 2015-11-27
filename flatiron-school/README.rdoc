@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was built to practice setting up an API in Rails and connecting it with Ember as the front end of the application. A small school domain is being used where a course has many teachers and a course has many students.
 
-Things you may want to cover:
+This portion serves as the backend API. Run the Rails App locally, as well as the Ember App located in flatiron-school-ember.
 
-* Ruby version
+## Collaborators 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Amanda Johns, Natalie Coley, Tracy Lum, Madeline Ford
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
