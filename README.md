@@ -1,6 +1,6 @@
 # Flatiron-school-ember
 
-This project was built during one afternoon at Flatiron as a way to practice Ember.js. The goal was to connect an Ember front-end to a Rails back-end. My group and I built our own API in Rails and make requests from the Ember application to show information about our domain. We worked with a school domain to keep track of relationships between courses, teachers and students.
+This project was built during one afternoon at Flatiron as a way to practice Ember.js. The goal was to connect an Ember front-end to a Rails back-end. My group and I built our own API in Rails and made requests from the Ember application to show information about our domain. We worked with a school domain to keep track of relationships between courses, teachers and students.
 
 # Collaborators
 
