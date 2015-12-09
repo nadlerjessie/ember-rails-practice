@@ -1,47 +1,10 @@
 # Flatiron-school-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project was built during one afternoon at Flatiron as a way to practice Ember.js. The goal was to connect an Ember front-end to a Rails back-end. My group and I built our own API in Rails and make requests from the Ember application to show information about our domain. We worked with a school domain to keep track of relationships between courses, teachers and students.
 
-## Prerequisites
+# Collaborators
 
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
+Amanda Johns, Natalie Coley, Tracy Lum, Madeline Ford
 
 ## Further Reading / Useful Links
 
